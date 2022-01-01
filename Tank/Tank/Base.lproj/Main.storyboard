@@ -25,17 +25,20 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ad-9J-eEY">
                                         <rect key="frame" x="0.0" y="0.0" width="248.5" height="89.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f86-Of-pF2">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f86-Of-pF2">
                                                 <rect key="frame" x="0.0" y="0.0" width="83" height="89.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="TurretLeft.png"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3s1-Di-6R5">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3s1-Di-6R5">
                                                 <rect key="frame" x="83" y="0.0" width="82.5" height="89.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" image="CannonFire.png">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Goe-T9-FiJ">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Goe-T9-FiJ">
                                                 <rect key="frame" x="165.5" y="0.0" width="83" height="89.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="TurretRight.png"/>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -46,17 +49,17 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uh2-Re-ylH">
                                         <rect key="frame" x="0.0" y="89.5" width="248.5" height="89.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYC-pB-zZi">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYC-pB-zZi">
                                                 <rect key="frame" x="0.0" y="0.0" width="83" height="89.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="TankLeft.png"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqV-Y9-HMk">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqV-Y9-HMk">
                                                 <rect key="frame" x="83" y="0.0" width="82.5" height="89.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="TankForward.png"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qg8-fx-VBI">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qg8-fx-VBI">
                                                 <rect key="frame" x="165.5" y="0.0" width="83" height="89.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="TankRight.png"/>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -75,7 +78,7 @@
                         <constraints>
                             <constraint firstItem="F77-V5-PTe" firstAttribute="height" secondItem="YcX-OQ-mIN" secondAttribute="height" id="CoM-cB-QdT"/>
                             <constraint firstItem="MyO-yX-dQg" firstAttribute="width" secondItem="F77-V5-PTe" secondAttribute="width" multiplier="0.6" id="hcw-5K-lPw"/>
-                            <constraint firstItem="MyO-yX-dQg" firstAttribute="bottom" secondItem="F77-V5-PTe" secondAttribute="bottom" constant="10" id="jLH-ww-Szo"/>
+                            <constraint firstItem="MyO-yX-dQg" firstAttribute="bottom" secondItem="F77-V5-PTe" secondAttribute="bottom" constant="15" id="jLH-ww-Szo"/>
                             <constraint firstItem="F77-V5-PTe" firstAttribute="width" secondItem="YcX-OQ-mIN" secondAttribute="width" id="rRI-rb-98t"/>
                             <constraint firstItem="MyO-yX-dQg" firstAttribute="height" secondItem="F77-V5-PTe" secondAttribute="height" multiplier="0.2" id="t3h-6F-Jiw"/>
                         </constraints>
@@ -90,6 +93,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="CannonFire.png" width="61.439998626708984" height="61.439998626708984"/>
+        <image name="TankForward.png" width="61.439998626708984" height="61.439998626708984"/>
+        <image name="TankLeft.png" width="61.439998626708984" height="61.439998626708984"/>
+        <image name="TankRight.png" width="61.439998626708984" height="61.439998626708984"/>
+        <image name="TurretLeft.png" width="61.439998626708984" height="61.439998626708984"/>
+        <image name="TurretRight.png" width="61.439998626708984" height="61.439998626708984"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -16,7 +16,6 @@
 		04CFA06D277FD3520082DDDC /* TankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CFA06C277FD3520082DDDC /* TankUITests.swift */; };
 		04CFA081277FD4F80082DDDC /* TinyToyTank.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 04CFA080277FD4F80082DDDC /* TinyToyTank.rcproject */; };
 		04CFA086277FD7120082DDDC /* AppIcon in Resources */ = {isa = PBXBuildFile; fileRef = 04CFA085277FD7120082DDDC /* AppIcon */; };
-		04CFA08E277FD7210082DDDC /* Buttons in Resources */ = {isa = PBXBuildFile; fileRef = 04CFA08D277FD7210082DDDC /* Buttons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,7 +240,6 @@
 				04CFA086277FD7120082DDDC /* AppIcon in Resources */,
 				04CFA054277FD3520082DDDC /* Assets.xcassets in Resources */,
 				04CFA052277FD34F0082DDDC /* Main.storyboard in Resources */,
-				04CFA08E277FD7210082DDDC /* Buttons in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
