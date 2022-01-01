@@ -28,6 +28,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f86-Of-pF2">
                                                 <rect key="frame" x="0.0" y="0.0" width="83" height="89.5"/>
                                                 <state key="normal" title="Button" image="TurretLeft.png"/>
+                                                <connections>
+                                                    <action selector="turretLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p6g-KW-Viv"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3s1-Di-6R5">
                                                 <rect key="frame" x="83" y="0.0" width="82.5" height="89.5"/>
@@ -35,10 +38,16 @@
                                                 <state key="normal" image="CannonFire.png">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="cannonFire:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2lm-fs-O7A"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Goe-T9-FiJ">
                                                 <rect key="frame" x="165.5" y="0.0" width="83" height="89.5"/>
                                                 <state key="normal" title="Button" image="TurretRight.png"/>
+                                                <connections>
+                                                    <action selector="turretRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VuO-di-RGE"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -52,14 +61,23 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYC-pB-zZi">
                                                 <rect key="frame" x="0.0" y="0.0" width="83" height="89.5"/>
                                                 <state key="normal" title="Button" image="TankLeft.png"/>
+                                                <connections>
+                                                    <action selector="tankLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NXn-K1-7T2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqV-Y9-HMk">
                                                 <rect key="frame" x="83" y="0.0" width="82.5" height="89.5"/>
                                                 <state key="normal" title="Button" image="TankForward.png"/>
+                                                <connections>
+                                                    <action selector="tankForward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nsk-3n-u76"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qg8-fx-VBI">
                                                 <rect key="frame" x="165.5" y="0.0" width="83" height="89.5"/>
                                                 <state key="normal" title="Button" image="TankRight.png"/>
+                                                <connections>
+                                                    <action selector="tankRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Hp-Ny-auZ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
