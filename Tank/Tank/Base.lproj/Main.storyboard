@@ -28,6 +28,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f86-Of-pF2">
                                                 <rect key="frame" x="0.0" y="0.0" width="82.5" height="89.5"/>
                                                 <state key="normal" title="Button" image="TurretLeft.png"/>
+                                                <connections>
+                                                    <action selector="turretLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mjh-aL-Lyh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3s1-Di-6R5">
                                                 <rect key="frame" x="82.5" y="0.0" width="83" height="89.5"/>
