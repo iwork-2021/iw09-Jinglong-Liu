@@ -10,8 +10,8 @@ import RealityKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var arView: ARView!
     //@IBOutlet var arView: ARView!
+    @IBOutlet weak var arView: ARView!
     var tankAnchor:TinyToyTank._TinyToyTank?
     override func viewDidLoad() {
         super.viewDidLoad()

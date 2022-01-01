@@ -3,6 +3,8 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -10,17 +12,86 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="ARView" customClass="ViewController" customModule="Tank" customModuleProvider="target" sceneMemberID="viewController">
-                    <arView key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="5Kz-R7-J42">
+                    <view key="view" contentMode="scaleToFill" id="YcX-OQ-mIN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </arView>
+                        <subviews>
+                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F77-V5-PTe">
+                                <rect key="frame" x="0.0" y="0.0" width="438" height="896"/>
+                            </arView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MyO-yX-dQg">
+                                <rect key="frame" x="163" y="677" width="248.5" height="179"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ad-9J-eEY">
+                                        <rect key="frame" x="0.0" y="0.0" width="248.5" height="89.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f86-Of-pF2">
+                                                <rect key="frame" x="0.0" y="0.0" width="83" height="89.5"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3s1-Di-6R5">
+                                                <rect key="frame" x="83" y="0.0" width="82.5" height="89.5"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Goe-T9-FiJ">
+                                                <rect key="frame" x="165.5" y="0.0" width="83" height="89.5"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Goe-T9-FiJ" firstAttribute="width" secondItem="f86-Of-pF2" secondAttribute="width" id="8FC-Br-nYq"/>
+                                            <constraint firstItem="3s1-Di-6R5" firstAttribute="width" secondItem="f86-Of-pF2" secondAttribute="width" id="Oj4-Kt-QXp"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uh2-Re-ylH">
+                                        <rect key="frame" x="0.0" y="89.5" width="248.5" height="89.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYC-pB-zZi">
+                                                <rect key="frame" x="0.0" y="0.0" width="83" height="89.5"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqV-Y9-HMk">
+                                                <rect key="frame" x="83" y="0.0" width="82.5" height="89.5"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qg8-fx-VBI">
+                                                <rect key="frame" x="165.5" y="0.0" width="83" height="89.5"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Qg8-fx-VBI" firstAttribute="width" secondItem="vYC-pB-zZi" secondAttribute="width" id="Vzw-uk-KLd"/>
+                                            <constraint firstItem="rqV-Y9-HMk" firstAttribute="width" secondItem="vYC-pB-zZi" secondAttribute="width" id="vJs-Vx-5fi"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uh2-Re-ylH" firstAttribute="height" secondItem="6ad-9J-eEY" secondAttribute="height" id="In0-db-eP3"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IZr-Rh-yen"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="F77-V5-PTe" firstAttribute="height" secondItem="YcX-OQ-mIN" secondAttribute="height" id="CoM-cB-QdT"/>
+                            <constraint firstItem="MyO-yX-dQg" firstAttribute="width" secondItem="F77-V5-PTe" secondAttribute="width" multiplier="0.6" id="hcw-5K-lPw"/>
+                            <constraint firstItem="MyO-yX-dQg" firstAttribute="bottom" secondItem="F77-V5-PTe" secondAttribute="bottom" constant="10" id="jLH-ww-Szo"/>
+                            <constraint firstItem="F77-V5-PTe" firstAttribute="width" secondItem="YcX-OQ-mIN" secondAttribute="width" id="rRI-rb-98t"/>
+                            <constraint firstItem="MyO-yX-dQg" firstAttribute="height" secondItem="F77-V5-PTe" secondAttribute="height" multiplier="0.2" id="t3h-6F-Jiw"/>
+                        </constraints>
+                    </view>
                     <connections>
-                        <outlet property="arView" destination="5Kz-R7-J42" id="KZU-Ux-cGU"/>
+                        <outlet property="arView" destination="F77-V5-PTe" id="4XH-gK-OZa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="134"/>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
