@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         arView.scene.anchors.append(tankAnchor!)
     }
     @IBAction func cannonFire(_ sender: Any) {
+        tankAnchor!.notifications.cannonFire.post()
     }
     @IBAction func tankForward(_ sender: Any) {
         tankAnchor!.notifications.tankForward.post()
@@ -39,7 +40,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func turretLeft(_ sender: Any) {
+        tankAnchor!.notifications.turretLeft.post()
+
     }
     @IBAction func turretRight(_ sender: Any) {
+        tankAnchor!.notifications.turretRight.post()
     }
 }
