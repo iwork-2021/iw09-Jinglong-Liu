@@ -15,6 +15,8 @@
 		04CFA062277FD3520082DDDC /* TankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CFA061277FD3520082DDDC /* TankTests.swift */; };
 		04CFA06D277FD3520082DDDC /* TankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CFA06C277FD3520082DDDC /* TankUITests.swift */; };
 		04CFA081277FD4F80082DDDC /* TinyToyTank.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 04CFA080277FD4F80082DDDC /* TinyToyTank.rcproject */; };
+		04CFA086277FD7120082DDDC /* AppIcon in Resources */ = {isa = PBXBuildFile; fileRef = 04CFA085277FD7120082DDDC /* AppIcon */; };
+		04CFA08E277FD7210082DDDC /* Buttons in Resources */ = {isa = PBXBuildFile; fileRef = 04CFA08D277FD7210082DDDC /* Buttons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		04CFA06C277FD3520082DDDC /* TankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankUITests.swift; sourceTree = "<group>"; };
 		04CFA06E277FD3520082DDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04CFA080277FD4F80082DDDC /* TinyToyTank.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = TinyToyTank.rcproject; path = Tank/TinyToyTank.rcproject; sourceTree = "<group>"; };
+		04CFA085277FD7120082DDDC /* AppIcon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon; sourceTree = "<group>"; };
+		04CFA08D277FD7210082DDDC /* Buttons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Buttons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 			children = (
 				04CFA04A277FD34F0082DDDC /* AppDelegate.swift */,
 				04CFA04C277FD34F0082DDDC /* ViewController.swift */,
+				04CFA08D277FD7210082DDDC /* Buttons */,
+				04CFA085277FD7120082DDDC /* AppIcon */,
 				04CFA050277FD34F0082DDDC /* Main.storyboard */,
 				04CFA053277FD3520082DDDC /* Assets.xcassets */,
 				04CFA055277FD3520082DDDC /* LaunchScreen.storyboard */,
@@ -232,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CFA057277FD3520082DDDC /* LaunchScreen.storyboard in Resources */,
+				04CFA086277FD7120082DDDC /* AppIcon in Resources */,
 				04CFA054277FD3520082DDDC /* Assets.xcassets in Resources */,
 				04CFA052277FD34F0082DDDC /* Main.storyboard in Resources */,
+				04CFA08E277FD7210082DDDC /* Buttons in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
